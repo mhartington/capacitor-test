@@ -1,0 +1,20 @@
+{
+  "name": "AvocadoCordova",
+  "module_name": "Cordova",
+  "version": "1.0.0",
+  "summary": "Avocado Cordova Compatibility Bridge",
+  "homepage": "https://ionicframework.com",
+  "license": "MIT",
+  "authors": "jcesarmobile",
+  "source": {
+    "git": "https://github.com/ionic-team/avocado",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AvocadoCordova/**/*.{h,m}",
+  "public_header_files": "AvocadoCordova/Classes/Public/*.h",
+  "requires_arc": true,
+  "frameworks": "WebKit"
+}
